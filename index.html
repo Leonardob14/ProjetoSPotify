@@ -14,29 +14,49 @@
 		<div class="corpo">
 			<!-- Código referente ao menu lateral esquerdo-->
 
-			<div id="Menu" class="janelaMenu">
-				<img class="imglogo" src="assets/img/logo.png" width="180">
+			<div id="Menu" class="janelaMenu" style="overflow:auto">
+				<img class="imglogo" src="assets/img/logo.png" width="75%">
 				<div id="home">
-					<img class="label_conf" src="assets/img/home.svg" alt="" width="25">
+					<img class="label_conf" src="assets/img/home.svg" alt="" width="12%">
 					<span class="label_menu">Home</span>
 				</div>
 				<div id="search">
-					<img class ="label_conf" src="assets/img/search.svg" alt="" width="25">
+					<img class ="label_conf" src="assets/img/search.svg" alt="" width="12%">
 					<span class="label_menu"> Search</span>
 				</div>
 				<div id="library">
-					<img class="label_conf" src="assets/img/reading-books-three-black-rectangles.svg" alt="" width="25">
+					<img class="label_conf" src="assets/img/reading-books-three-black-rectangles.svg" alt="" width="12%">
 					<span class="label_menu"> Your Library</span>
 				</div>
 				<div>
 					<p class="label_conf">PLAYLISTS</p>
 				</div>
-				<div>
-					<img class="label_conf" src="assets/img/favicon.png" alt="" width="20">
-					<span class="label_menu"> Create Playlist</span>
-				</div>
-				<div>
+						<span class="label_playlist">Create Playlist</span>
+					<div id="criarplaylist" class="criarplaylist">
+						<img class="label_criar" src="assets/img/add.png" alt="" width="50%">
+					</div>
+				<div id="lista_playlist" >
 					<ul>
+						<li class="menuHorizontal">Acústico MPB</li>
+						<li class="menuHorizontal">Brasil Anos 2000</li>
+						<li class="menuHorizontal">100 Riffs</li>
+						<li class="menuHorizontal">Ouvir Depois</li>
+						<li class="menuHorizontal">All Out 90s</li>
+						<li class="menuHorizontal">PLaylist Caio Bottura</li>
+						<li class="menuHorizontal">Eminem</li>
+						<li class="menuHorizontal">Workout Rock</li>
+						<li class="menuHorizontal">Discovering</li>
+						<li class="menuHorizontal">Iron Maiden - Rock in Rio</li>
+						<li class="menuHorizontal">Acústico MPB</li>
+						<li class="menuHorizontal">Brasil Anos 2000</li>
+						<li class="menuHorizontal">100 Riffs</li>
+						<li class="menuHorizontal">Ouvir Depois</li>
+						<li class="menuHorizontal">All Out 90s</li>
+						<li class="menuHorizontal">PLaylist Caio Bottura</li>
+						<li class="menuHorizontal">Eminem</li>
+						<li class="menuHorizontal">Workout Rock</li>
+						<li class="menuHorizontal">Discovering</li>
+						<li class="menuHorizontal">Iron Maiden - Rock in Rio</li>
 						<li class="menuHorizontal">Acústico MPB</li>
 						<li class="menuHorizontal">Brasil Anos 2000</li>
 						<li class="menuHorizontal">100 Riffs</li>
@@ -54,7 +74,7 @@
 
 			<div id="centro" class="janelaCentro">
 				<div id="album">
-					<img class="imgalbum" src="assets/img/albun.jpg" alt="">
+					<img class="imgalbum" src="assets/img/albun.jpg" alt="" width="55%">
 					<p class="tituloAlbum"> 00s Rock Anthems </p>
 					<p class="subtituloAlbum">Spotify </p>
 					
@@ -62,28 +82,161 @@
 				<div id="botaoplay">
 						<button class="btn btn-green">Play</button>
 				</div>
-				<div id="Informacoes">
-					
+				<div id="descricao_album">
+					<div class="edita_descricao"> These songs are rocked the 00s. Cover: Linkin Park </div>
+					<div class="edita_descricao2"> 50 songs</div>
+					<div> 
+						<img class="edita_imagem" src="assets/img/heart.svg" width="20" >
+					</div>
+					<div class="edita_opcoes"> •••</div>
 				</div>
 
 			</div>
 			<!-- Janela da parte direita onde se localiza informações sobre as músicas referentes ao album -->
-			<div id="direita" class="janelaDireita">
-
-				<ul>
-					<li> 
-						<img src="assets/img/musical-note.svg" alt="" width="20">
-						Kriptonite 
-					
-				</li>
-					<ul>
-					 3Doors Down . The Better Life </ul>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-				</ul>
+			<div id="label_info" class="janelaDireita" style="overflow:auto">
+					<li>
+						<div class="music"> 
+							<div class="left">
+								<img src="assets/img/musical-note.svg" alt="" width="15">
+								Kryptonite <br>
+								<spam class="banda">3 Doors Down • The Better Life</spam>
+							</div>
+							<div class="timemusic">3:53</div>
+						</div>
+					</li>
+					<li>
+						<div class="music"> 
+							<div class="left">
+								<img src="assets/img/musical-note.svg" alt="" width="15">
+								I Hate Everything About You <br>
+								<spam class="banda">Three Days Grace • Three Days Grace (Deluxe Version)</spam>
+							</div>
+							<div class="timemusic">3:51</div>
+						</div>
+					</li>
+					<li>
+						<div class="music">
+							<div class="left">
+								<img src="assets/img/musical-note.svg" alt="" width="15">
+								The Diary of Jane - Single Version <br>
+								<spam class="banda">Breaking Benjamin • Phobia (Explicit Version)</spam>
+							</div>
+							<div class="timemusic">3:20</div>
+						</div>
+					</li>
+					<li>
+						<div class="music">
+							<div class="left">
+								<img src="assets/img/musical-note.svg" alt="" width="15">
+								Savior<br>
+								<spam class="banda"> Rise Against • Appeal To Reason</spam>
+							</div>
+							<div class="timemusic">4:02</div>
+						</div>
+					</li>
+					<li>
+						<div class="music">
+							<div class="left">
+								<img src="assets/img/musical-note.svg" alt="" width="15">
+								Fake It <br>
+								<spam class="banda">Explicit Seether • Finding Beauty In Negative Spaces (Bonus Track Version)</spam>
+							</div>
+							<div class="timemusic">3:13</div>
+						</div>
+					</li>
+					<li>
+						<div class="music">
+							<div class="left">
+								<img src="assets/img/musical-note.svg" alt="" width="15">
+								Last Resort <br>
+								<spam class="banda">Explicit Papa Roach • Infest</spam>
+							</div>
+							<div class="timemusic">3:51</div>
+						</div>
+					</li>
+					<li>
+						<div class="music">
+							<div class="left">
+								<img src="assets/img/musical-note.svg" alt="" width="15">
+								I Hate Everything About You <br>
+								<spam class="banda">Three Days Grace • Three Days Grace (Deluxe Version)</spam>
+							</div>
+							<div class="timemusic">3:51</div>
+						</div>
+					</li>
+					<li>
+						<div class="music">
+							<div class="left">
+								<img src="assets/img/musical-note.svg" alt="" width="15">
+								The Pretender <br>
+								<spam class="banda">Foo Fighters • Echoes, Silence, Patience Grace </spam>
+							</div>
+							<div class="timemusic">4:29</div>
+						</div>
+					</li>
+					<li>
+						<div class="music">
+							<div class="left">
+								<img src="assets/img/musical-note.svg" alt="" width="15">
+								You're Gonna Go Far, Kid <br>
+								<spam class="banda">Explicit The Offspring • Rise And Fall, Rage And Grace</spam>
+							</div>
+							<div class="timemusic">2:57</div>
+						</div>
+					</li>
+					<li>
+						<div class="music">
+							<div class="left">
+								<img src="assets/img/musical-note.svg" alt="" width="15">
+								Through Glass <br>
+								<spam class="banda">Stone Sour • Come What(ever) May [10th Anniversary Edition] </spam>
+							</div>
+							<div class="timemusic">4:42</div>
+						</div>
+					</li>
+					<li>
+						<div class="music">
+							<div class="left">
+								<img src="assets/img/musical-note.svg" alt="" width="15">
+								In the End <br>
+								<spam class="banda">Linkin Park • Hybrid Theory (Bonus Edition)</spam>
+							</div>
+							<div class="timemusic">3:36</div>
+						</div>
+					</li>
+					<li>
+						<div class="music">
+							<div class="left">
+								<img src="assets/img/musical-note.svg" alt="" width="15">
+								How You Remind Me <br>
+								<spam class="banda">Nickelback • Silver Side Up</spam>
+							</div>
+							<div class="timemusic">3:43</div>
+						</div>
+					</li>
+					<li>
+						<div class="music">
+							<div class="left">
+								<img src="assets/img/musical-note.svg" alt="" width="15">
+								The Kill (Bury Me) <br>
+								<spam class="banda">Thirty Seconds To Mars • A Beautiful Lie</spam>
+							</div>
+							<div class="timemusic">3:51</div>
+						</div>
+					</li>
+					<li>
+						<div class="music">
+							<div class="left">
+								<img src="assets/img/musical-note.svg" alt="" width="15">
+								Best Of You <br>
+								<spam class="banda">Foo Fighters • Best Of You</spam>
+							</div>
+							<div class="timemusic">3:51</div>
+						</div>
+					</li>
 			</div>
+
+			
 		</div>
 
 			<!-- Parte inferior onde se encontra o player -->
