@@ -91,12 +91,40 @@ ul {
     width: 100%;
     height: 90%;
 }
+
+.janelaMenu {
+    top: 0%;
+    float: left;
+    height: 90%;
+    width: 15%;
+    background-color: #040404;
+
+}
+.janelaCentro {
+
+    float: left;
+    height: 100%;
+    width: 40%;
+    background-color: #141414;
+
+}
+.janelaDireita {
+    float: left;
+    height: 100%;
+    width: 45%;
+    background-color: #171717;
+    overflow: hidden;
+}
+
 footer{
     height: 10%;
     width: 100%;
     position: fixed;
     bottom: 0;
 }
+
+
+
 .label_conf{
     color: #878787;
     font-family: 'Roboto', sans-serif;
@@ -108,14 +136,6 @@ footer{
     margin-left: 10px;
 }
 
-.janelaMenu {
-    top: 0%;
-    float: left;
-    height: 100%;
-    width: 15%;
-    background-color: #040404;
-
-}
 .label_menu{
     color: #878787;
     font-family: 'Roboto', sans-serif;
@@ -124,22 +144,6 @@ footer{
   
 }
 
-.janelaCentro {
-
-    float: left;
-    height: 100%;
-    width: 40%;
-    background-color: #141414;
-
-}
-
-.janelaDireita {
-    float: left;
-    height: 100%;
-    width: 45%;
-    background-color: #171717;
-    overflow: hidden;
-}
 .musica_info{
     float: left;
     width: 90%;
