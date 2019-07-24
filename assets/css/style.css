@@ -33,7 +33,7 @@ li{
 }
 
 #label_info li:hover{
-    background-color: #1db954;
+    background-image: linear-gradient(to right, rgb(49, 49, 48),rgb(46, 44, 44) );
     
 }
 #lista_playlist li:hover{
@@ -45,6 +45,10 @@ li{
     color: #9d9d9d;
     text-align: center;
     margin-top: 3%;
+}
+.edita_coracao{
+    margin-top: 2%;
+    margin-left: 43%;
 }
 .edita_descricao2{
     font-family: 'Roboto', sans-serif;
@@ -58,15 +62,35 @@ li{
     float: left;
     margin-left: 45%;
 }
+
 .edita_opcoes{
-    margin-top: 1%;
+    margin-top: -4%;
     margin-left: 52%;
 }
+.config{
+    margin-left: 8%;
+    margin-top: 8%;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.2ch;
+    font-weight: 400;
+    font-size: 12px;
+    color: #9d9d9d;
 
+}
+
+.config_play{
+    margin-top: 15%;
+    
+    margin-left: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.2ch;
+}
 .menuHorizontal{
+    margin-top: 6%;
     margin-left: -10%;
     font-family: 'Roboto', sans-serif;
-    font-size: 13.8px;
+    font-size: 13px;
     color: #9d9d9d;
     margin-bottom: 6px;
 }
@@ -78,6 +102,13 @@ li{
 }
 .menu_playlist{
     overflow: auto;
+}
+.menurodape{
+    clear: both;
+    float: left;
+    width: 100%;
+    height: 20%;
+    background-color: #040404;
 }
 
 
@@ -91,15 +122,24 @@ ul {
     width: 100%;
     height: 90%;
 }
+.janelaesquerda{
+    top: 0%;
+    float: left;
+    height: 100%;
+    width: 15%;
+}
 
 .janelaMenu {
     top: 0%;
     float: left;
-    height: 90%;
-    width: 15%;
+    height: 80%;
+    width: 100%;
     background-color: #040404;
+    overflow: hidden;
+    position: relative;
 
 }
+
 .janelaCentro {
 
     float: left;
@@ -114,13 +154,18 @@ ul {
     width: 45%;
     background-color: #171717;
     overflow: hidden;
+    position: relative;
+}
+.banda{
+    color: #646464;
+    font-weight: 500;
 }
 
 footer{
     height: 10%;
     width: 100%;
     position: fixed;
-    bottom: 0;
+   
 }
 
 
@@ -129,7 +174,14 @@ footer{
     color: #878787;
     font-family: 'Roboto', sans-serif;
     margin-left: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.2ch;
 }
+.label_conf :hover{
+    color: white;
+}
+
 .label_criar{
     color: #878787;
     font-family: 'Roboto', sans-serif;
@@ -137,18 +189,40 @@ footer{
 }
 
 .label_menu{
-    color: #878787;
+    color: #b3b3b3;
     font-family: 'Roboto', sans-serif;
-    margin-left: 15px;
-    font-weight: 500;
-  
+    margin-left: 13px;
+    font-size: 12px;
+    font-weight: bold;
 }
-
-.musica_info{
+.label_menu:hover{
+    color: white;
+}
+.installapp{
+ margin-top: 10%;
+ margin-left: 11%;
+ margin-bottom: 0%;
+}
+.install{
     float: left;
-    width: 90%;
-    height: 72px;
-    background-color: #1db954;
+    margin-left: 24%;
+    margin-top: -14%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    
+}
+.imgusuario{
+    margin-top: 3%;
+    margin-left: 3%;
+    border-radius: 20px;
+    
+}
+.nomeusuario{
+    float: left;
+    margin-left: 20%;
+    margin-top: -12%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .menu_tempo{
@@ -172,7 +246,6 @@ p{
     font-size: 24px;
     font-weight: bold;
     text-align: center;
-    text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
 }
 /* Subtitulo do Album*/
@@ -204,17 +277,22 @@ p{
     height: 28px;
     margin-left: 8%;
 }
+.criarplaylist:hover{
+    background-color: white;
+}
 
 /* Classe do Create playlist */
 .label_playlist{
     float: right;
     color: #848484;
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     margin-top: 5%;
     margin-right: 18%;
     font-size: 14px;
-
+}
+.label_playlist:hover{
+    color: white;
 }
 
 /* CLasse do botão */ 
@@ -225,6 +303,14 @@ p{
     width: 140px;
     height: 40px;
  }
+ 
+.btn.btn.btn-green:hover{
+    background-color: #1db954;
+    padding: 11px 44px;
+    width: 145px;
+    height: 43px;
+}
+
  
  /*  COMEÇO BOTÃO PLAY VERDE DA PÁGINA*/
  .btn {
@@ -278,11 +364,13 @@ p{
     width: 8%;
     float: left;
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 10px;
  }
 
  .music{
     font-family: 'Roboto', sans-serif;
     height: 45px;
-    font-size: 14px;
+    font-size: 10px;
+    font-weight: bold;
+
 }

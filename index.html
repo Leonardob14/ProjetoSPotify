@@ -3,9 +3,11 @@
 
 <head>
 	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/perfect-scrollbar.css">
 	<link rel = "shortcut icon" type = "imagem/x-icon" href = "assets/img/favicon.png"/>
+	<script src="assets/js/perfect-scrollbar.min.js"></script>
 	<title>Projeto spotify</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
 </head>
 
@@ -13,7 +15,8 @@
 	<main>
 		<div class="corpo">
 			<!-- Código referente ao menu lateral esquerdo-->
-			<div id="Menu" class="janelaMenu" style="overflow:auto">
+		<div id="uniao" class="janelaesquerda">
+			<div id="Menu" class="janelaMenu ">
 				<img class="imglogo" src="assets/img/logo.png" width="75%">
 				<div id="home">
 					<img class="label_conf" src="assets/img/home.svg" alt="" width="12%">
@@ -28,7 +31,7 @@
 					<span class="label_menu"> Your Library</span>
 				</div>
 				<div>
-					<p class="label_conf">PLAYLISTS</p>
+					<p class="config">PLAYLISTS</p>
 				</div>
 						<span class="label_playlist">Create Playlist</span>
 					<div id="criarplaylist" class="criarplaylist">
@@ -69,7 +72,29 @@
 					</ul>
 				</div>
 			</div>
-		
+
+			<div id="rodapeplaylist" class="menurodape">
+				
+				<div>
+					<img class="installapp" src="assets/img/down-arrow.svg" width="18">
+				</div>
+				<div>
+					<span class="install" > Install App </span>
+					<!-- <span style="height:1px; border:none; color:#1db954; background-color:#1db954; margin-top: 0px; margin-bottom: 1px;">..........................................</span> -->
+					<hr width="90%">
+				</div>
+				<div>
+					<img class="imgusuario" src="assets/img/user.jpg" width="30">
+				</div>
+				<div>
+					<span class="nomeusuario"> Kleber Souza</span>
+				</div>
+	
+			</div>
+		</div>
+
+
+
 			<!--  Código da janela central, onde fica lozalicado informações sobre o album -->
 
 			<div id="centro" class="janelaCentro">
@@ -86,9 +111,9 @@
 					<div class="edita_descricao"> These songs are rocked the 00s. Cover: Linkin Park </div>
 					<div class="edita_descricao2"> 50 songs</div>
 					<div> 
-						<img class="edita_imagem" src="assets/img/heart.svg" width="20" >
+						<img class="edita_coracao" src="assets/img/heart.svg" width="20" >
 					</div>
-					<div class="edita_opcoes"> •••</div>
+					<div class="edita_opcoes"> ••• </div>
 				</div>
 
 			</div>
@@ -97,9 +122,9 @@
 					<li>
 						<div class="music"> 
 							<div class="left">
-								<img src="assets/img/musical-note.svg" alt="" width="15">
+								<img src="assets/img/musical-note.svg" alt="" width="10">
 								Kryptonite <br>
-								<spam class="banda">3 Doors Down • The Better Life</spam>
+								<spam class="banda">&nbsp&nbsp&nbsp&nbsp3 Doors Down • The Better Life</spam>
 							</div>
 							<div class="timemusic">3:53</div>
 						</div>
@@ -107,9 +132,9 @@
 					<li>
 						<div class="music"> 
 							<div class="left">
-								<img src="assets/img/musical-note.svg" alt="" width="15">
+								<img src="assets/img/musical-note.svg" alt="" width="10">
 								I Hate Everything About You <br>
-								<spam class="banda">Three Days Grace • Three Days Grace (Deluxe Version)</spam>
+								<spam class="banda">&nbsp&nbsp&nbsp&nbspThree Days Grace • Three Days Grace (Deluxe Version)</spam>
 							</div>
 							<div class="timemusic">3:51</div>
 						</div>
@@ -117,9 +142,9 @@
 					<li>
 						<div class="music">
 							<div class="left">
-								<img src="assets/img/musical-note.svg" alt="" width="15">
+								<img src="assets/img/musical-note.svg" alt="" width="10">
 								The Diary of Jane - Single Version <br>
-								<spam class="banda">Breaking Benjamin • Phobia (Explicit Version)</spam>
+								<spam class="banda">&nbsp&nbsp&nbsp&nbsp&nbspBreaking Benjamin • Phobia (Explicit Version)</spam>
 							</div>
 							<div class="timemusic">3:20</div>
 						</div>
@@ -127,9 +152,9 @@
 					<li>
 						<div class="music">
 							<div class="left">
-								<img src="assets/img/musical-note.svg" alt="" width="15">
+								<img src="assets/img/musical-note.svg" alt="" width="10">
 								Savior<br>
-								<spam class="banda"> Rise Against • Appeal To Reason</spam>
+								<spam class="banda">&nbsp&nbsp&nbsp Rise Against • Appeal To Reason</spam>
 							</div>
 							<div class="timemusic">4:02</div>
 						</div>
@@ -137,9 +162,9 @@
 					<li>
 						<div class="music">
 							<div class="left">
-								<img src="assets/img/musical-note.svg" alt="" width="15">
+								<img src="assets/img/musical-note.svg" alt="" width="10">
 								Fake It <br>
-								<spam class="banda">Explicit Seether • Finding Beauty In Negative Spaces (Bonus Track Version)</spam>
+								<spam class="banda">&nbsp&nbsp&nbsp&nbspExplicit Seether • Finding Beauty In Negative Spaces (Bonus Track Version)</spam>
 							</div>
 							<div class="timemusic">3:13</div>
 						</div>
@@ -147,9 +172,9 @@
 					<li>
 						<div class="music">
 							<div class="left">
-								<img src="assets/img/musical-note.svg" alt="" width="15">
+								<img src="assets/img/musical-note.svg" alt="" width="10">
 								Last Resort <br>
-								<spam class="banda">Explicit Papa Roach • Infest</spam>
+								<spam class="banda">&nbsp&nbsp&nbspExplicit Papa Roach • Infest</spam>
 							</div>
 							<div class="timemusic">3:51</div>
 						</div>
@@ -157,9 +182,9 @@
 					<li>
 						<div class="music">
 							<div class="left">
-								<img src="assets/img/musical-note.svg" alt="" width="15">
+								<img src="assets/img/musical-note.svg" alt="" width="10">
 								I Hate Everything About You <br>
-								<spam class="banda">Three Days Grace • Three Days Grace (Deluxe Version)</spam>
+								<spam class="banda">&nbsp&nbsp&nbsp&nbspThree Days Grace • Three Days Grace (Deluxe Version)</spam>
 							</div>
 							<div class="timemusic">3:51</div>
 						</div>
@@ -167,9 +192,9 @@
 					<li>
 						<div class="music">
 							<div class="left">
-								<img src="assets/img/musical-note.svg" alt="" width="15">
+								<img src="assets/img/musical-note.svg" alt="" width="10">
 								The Pretender <br>
-								<spam class="banda">Foo Fighters • Echoes, Silence, Patience Grace </spam>
+								<spam class="banda">&nbsp&nbsp&nbsp&nbspFoo Fighters • Echoes, Silence, Patience Grace </spam>
 							</div>
 							<div class="timemusic">4:29</div>
 						</div>
@@ -177,9 +202,9 @@
 					<li>
 						<div class="music">
 							<div class="left">
-								<img src="assets/img/musical-note.svg" alt="" width="15">
+								<img src="assets/img/musical-note.svg" alt="" width="10">
 								You're Gonna Go Far, Kid <br>
-								<spam class="banda">Explicit The Offspring • Rise And Fall, Rage And Grace</spam>
+								<spam class="banda">&nbsp&nbsp&nbsp&nbspExplicit The Offspring • Rise And Fall, Rage And Grace</spam>
 							</div>
 							<div class="timemusic">2:57</div>
 						</div>
@@ -187,9 +212,9 @@
 					<li>
 						<div class="music">
 							<div class="left">
-								<img src="assets/img/musical-note.svg" alt="" width="15">
+								<img src="assets/img/musical-note.svg" alt="" width="10">
 								Through Glass <br>
-								<spam class="banda">Stone Sour • Come What(ever) May [10th Anniversary Edition] </spam>
+								<spam class="banda">&nbsp&nbsp&nbsp&nbspStone Sour • Come What(ever) May [10th Anniversary Edition] </spam>
 							</div>
 							<div class="timemusic">4:42</div>
 						</div>
@@ -197,9 +222,9 @@
 					<li>
 						<div class="music">
 							<div class="left">
-								<img src="assets/img/musical-note.svg" alt="" width="15">
+								<img src="assets/img/musical-note.svg" alt="" width="10">
 								In the End <br>
-								<spam class="banda">Linkin Park • Hybrid Theory (Bonus Edition)</spam>
+								<spam class="banda">&nbsp&nbsp&nbsp&nbspLinkin Park • Hybrid Theory (Bonus Edition)</spam>
 							</div>
 							<div class="timemusic">3:36</div>
 						</div>
@@ -207,9 +232,9 @@
 					<li>
 						<div class="music">
 							<div class="left">
-								<img src="assets/img/musical-note.svg" alt="" width="15">
+								<img src="assets/img/musical-note.svg" alt="" width="10">
 								How You Remind Me <br>
-								<spam class="banda">Nickelback • Silver Side Up</spam>
+								<spam class="banda">&nbsp&nbsp&nbsp&nbspNickelback • Silver Side Up</spam>
 							</div>
 							<div class="timemusic">3:43</div>
 						</div>
@@ -217,9 +242,9 @@
 					<li>
 						<div class="music">
 							<div class="left">
-								<img src="assets/img/musical-note.svg" alt="" width="15">
+								<img src="assets/img/musical-note.svg" alt="" width="10">
 								The Kill (Bury Me) <br>
-								<spam class="banda">Thirty Seconds To Mars • A Beautiful Lie</spam>
+								<spam class="banda">&nbsp&nbsp&nbsp&nbspThirty Seconds To Mars • A Beautiful Lie</spam>
 							</div>
 							<div class="timemusic">3:51</div>
 						</div>
@@ -227,16 +252,15 @@
 					<li>
 						<div class="music">
 							<div class="left">
-								<img src="assets/img/musical-note.svg" alt="" width="15">
+								<img src="assets/img/musical-note.svg" alt="" width="10">
 								Best Of You <br>
-								<spam class="banda">Foo Fighters • Best Of You</spam>
+								<spam class="banda">&nbsp&nbsp&nbsp&nbspFoo Fighters • Best Of You</spam>
 							</div>
 							<div class="timemusic">3:51</div>
 						</div>
 					</li>
 				</div>			
 			</div>
-		</div>
 
 			<!-- Parte inferior onde se encontra o player -->
 		
@@ -251,3 +275,7 @@
 </body>
 
 </html>
+<script>
+	var ps = new PerfectScrollbar('.janelaMenu');
+	var ps = new PerfectScrollbar('.janelaDireita');
+</script>
