@@ -122,6 +122,74 @@ ul {
     width: 100%;
     height: 90%;
 }
+footer{
+    height: 10%;
+    width: 100%;
+    position: fixed;
+}
+/* Responsável pela união das 3 DIVS do rodape */
+.juntar{
+    top: 0%;
+    float: left;
+    height: 100%;
+    width: 100%; 
+}
+/* 3 DIVS responsáveis por formar o rodape/player da página */
+
+.rodapeesquerdo{
+    float: left;
+    background-color: #282828;
+    width: 25%;
+    height: 100%;
+
+}
+.rodapemeio{
+    float: left;
+    background-color: #1db954;
+    width: 50%;
+    height: 100%;
+}
+.rodapedireito{
+    float: left;
+    background-color: #f10303;
+    width: 25%;
+    height: 100%;
+}
+/* FIM das 3 DIVS do player */
+/* ********************************** */
+
+/* Classes contidas no menu esquerdo do player da página */
+
+.transforma_img{
+    float: left;
+    width: 16%;
+    margin-top: 1%;
+    margin-left: 3%;
+    margin-bottom: 50%;
+}
+.transforma_font{
+    margin-top: 4%;
+    margin-left: 2%;
+    float: left;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    color: #dad3d3;
+}
+.transforma_sub{
+    margin-top: 5%;
+    margin-left: -40%;
+    font-weight: 500;
+    float: left;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #a19e9e;
+}
+/* ************************************************************* */
+/* Classes dos botões contidos no meio do player da pagina */
+
+
+/* Responsável pela união das 2 DIVS do menu esquerdo */
 .janelaesquerda{
     top: 0%;
     float: left;
@@ -129,6 +197,7 @@ ul {
     width: 15%;
 }
 
+/* Menu lateral esquerdo */
 .janelaMenu {
     top: 0%;
     float: left;
@@ -139,7 +208,7 @@ ul {
     position: relative;
 
 }
-
+/* DIV que fica no meio  */
 .janelaCentro {
 
     float: left;
@@ -148,6 +217,7 @@ ul {
     background-color: #141414;
 
 }
+/* DIV que fica na lateral com nome e tempo das musicas */
 .janelaDireita {
     float: left;
     height: 100%;
@@ -156,19 +226,12 @@ ul {
     overflow: hidden;
     position: relative;
 }
+/* Resposável por alterações na cor da fonte da banda */
 .banda{
     color: #646464;
     font-weight: 500;
 }
-
-footer{
-    height: 10%;
-    width: 100%;
-    position: fixed;
-   
-}
-
-
+/* Rodape da Página classe que engloba 3 e forma o player  */
 
 .label_conf{
     color: #878787;
