@@ -131,7 +131,7 @@ footer{
 }
 .rodapedireito{
     float: left;
-    background-color: #f10303;
+    background-color: #282828;
     width: 25%;
     height: 100%;
 }
@@ -198,7 +198,41 @@ footer{
     margin-top: 2%;
     margin-right: 0%;
 }
-
+.botoes{
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+.barravolume{
+    float: left;
+    width: 70%;
+    height: 100%;
+    background-color: #282828;
+}
+.control{
+    float: left;
+    margin-top: 11%;
+    width: 33%;
+    height: 100%;
+}
+.devices{
+    float: left;
+    margin-top: 8%;
+    width: 33%;
+    height: 100%;
+}
+.volume{
+    float: left;
+    margin-top: 8%;
+    width: 34%;
+    height: 100%;
+}
+.volumedefinir{
+    float: right;
+    width:40%;
+    margin-top:7%;
+    margin-right: 55%;
+}
 
 
 .rodapemeio p {
@@ -450,8 +484,6 @@ p{
     font-weight: bold;
  }
 /*  FIM BOTÃO PLAY VERDE DA PÁGINA*/
-
-
 
 .left{
     clear: both;
