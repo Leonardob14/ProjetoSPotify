@@ -279,9 +279,13 @@
 				<div class="rodapeesquerdo">
 
 					<img src="assets/img/login.jpg" class="transforma_img">
-					<p class="transforma_font"> #28: Helen Durrant<p>
-					<p class="transforma_sub">Jag Talon & Katherine Shaw Gyssler</p>
-
+					
+					<div class="textocima">
+						<p class="transforma_font"> #28: Helen Durrant</p>
+					</div>
+					<div class="textobaixo">
+						<p class="transforma_sub">Jag Talon & Katherine Shaw Gyssler</p>
+					</div>
 				</div>
 				<!-- Classe com todos os botões do menu e barra de tempo -->
 				<div class="rodapemeio">
@@ -300,19 +304,21 @@
 				</div>
 				<!-- Classe com opções do rodape que fica no lado esquerdo -->
 				<div class="rodapedireito">
-					<div class="botoes">
-						<div class="control">
-							<button class="control-button spoticon-queue-16 " title="Fila"></button>
-						</div>
-						<div class="devices">
-							<button class="spoticon-devices-16 control-button devices" aria-label="Conectar a um dispositivo"></button>
-						</div>
-						<div class="volume">
-							<button class="spoticon-volume-16 control-button volume-bar__icon volume" aria-label="Mudo"></button>
-						</div>
-					</div>
-					<div class="barravolume">
+					<div class="total">
+							<div class="barravolume">					
 									<input class="volumedefinir" type="range">
+							</div>
+							<div class="volume">
+								<button class="spoticon-volume-16 control-button volume-bar__icon editavolume" aria-label="Mudo"></button>
+							</div>
+							<div class="devices">
+								<button class="spoticon-devices-16 control-button editadevices" aria-label="Conectar a um dispositivo"></button>
+							</div>
+						<div class="control">
+							<button class="control-button spoticon-queue-16 editacontrol" title="Fila"></button>
+						</div>
+						
+		
 					</div>
 				</div>
 
