@@ -13,23 +13,8 @@ main {
     height: 100%;
 }
 
-p {
-    color: #8d8d8d;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    margin-left: 10px;
-}
-
-h1 {
-    color: chartreuse;
-    font-size: 100px;
-}
-
-div {
-    /* */
-}
 li{
-    list-style: none;
+    list-style: none;  
 }
 
 #label_info li:hover{
@@ -37,7 +22,7 @@ li{
     
 }
 #lista_playlist li:hover{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .edita_descricao{
     font-family: 'Roboto', sans-serif;
@@ -48,7 +33,7 @@ li{
 }
 .edita_coracao{
     margin-top: 2%;
-    margin-left: 43%;
+    margin-left: 46%;
 }
 .edita_descricao2{
     font-family: 'Roboto', sans-serif;
@@ -88,20 +73,15 @@ li{
 }
 .menuHorizontal{
     margin-top: 6%;
-    margin-left: -10%;
+    margin-left: 8%;
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
     color: #9d9d9d;
     margin-bottom: 6px;
 }
-.menuinfomusica{
-    margin-left: 25px;
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-    color: #9d9d9d;
-}
+ 
 .menu_playlist{
-    overflow: auto;
+    overflow: hidden;
 }
 .menurodape{
     clear: both;
@@ -112,7 +92,7 @@ li{
 }
 
 
-ul {
+.tratarul {
     margin-left: -2%;
     list-style: none;
     font-family: 'Roboto', sans-serif;
@@ -145,7 +125,7 @@ footer{
 }
 .rodapemeio{
     float: left;
-    background-color: #1db954;
+    background-color: #282828;
     width: 50%;
     height: 100%;
 }
@@ -168,7 +148,7 @@ footer{
     margin-bottom: 50%;
 }
 .transforma_font{
-    margin-top: 4%;
+    margin-top: 3%;
     margin-left: 2%;
     float: left;
     font-size: 14px;
@@ -177,8 +157,8 @@ footer{
     color: #dad3d3;
 }
 .transforma_sub{
-    margin-top: 5%;
-    margin-left: -40%;
+    margin-top: 0%;
+    margin-left: 3%;
     font-weight: 500;
     float: left;
     font-size: 10px;
@@ -187,6 +167,58 @@ footer{
 }
 /* ************************************************************* */
 /* Classes dos botões contidos no meio do player da pagina */
+
+.botao{
+    float: left;
+    width: 2%;
+    margin-top: 2%;
+    margin-right: 0%;
+}
+.botao1{
+    float: left;
+    width: 2%;
+    margin-top: 2%;
+    margin-right: 0%;
+}
+.botao2{
+    float: left;
+    width: 4%;
+    margin-top: 1%;
+    margin-right: 0%;
+}
+.botao3{
+    float: left;
+    width: 2%;
+    margin-top: 2%;
+    margin-right: 0%;
+}
+.botao4{
+    float: left;
+    width: 2%;
+    margin-top: 2%;
+    margin-right: 0%;
+}
+
+
+
+.rodapemeio p {
+    color: #aaaeae;
+    float: left;
+    font-size: 12px;
+    margin-left: -65%;
+    margin-top: 6.3%;
+}
+.mudafont {
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    color: #aaaeae;
+    font-size: 12px;
+    margin-left: 16%;
+    margin-top: 6.3%;
+   
+}
+
+
 
 
 /* Responsável pela união das 2 DIVS do menu esquerdo */
@@ -241,11 +273,12 @@ footer{
     font-weight: 400;
     letter-spacing: 0.2ch;
 }
-.label_conf :hover{
+#label_conf :hover{
     color: white;
 }
 
 .label_criar{
+    padding-bottom: 10%;
     color: #878787;
     font-family: 'Roboto', sans-serif;
     margin-left: 10px;
@@ -259,12 +292,12 @@ footer{
     font-weight: bold;
 }
 .label_menu:hover{
-    color: white;
+    color:white;
 }
 .installapp{
- margin-top: 10%;
+ margin-top: 8%;
  margin-left: 11%;
- margin-bottom: 0%;
+ margin-bottom: 3%;
 }
 .install{
     float: left;
@@ -274,16 +307,22 @@ footer{
     font-size: 14px;
     
 }
+.editainstall{
+    
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
 .imgusuario{
     margin-top: 3%;
-    margin-left: 3%;
+    margin-left: 8%;
     border-radius: 20px;
     
 }
 .nomeusuario{
     float: left;
-    margin-left: 20%;
-    margin-top: -12%;
+    margin-left: 25%;
+    margin-top: -13%;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
@@ -313,7 +352,7 @@ p{
 }
 /* Subtitulo do Album*/
 .subtituloAlbum{
-    margin-top: -5%;
+    margin-top:1%;
     color: #646464;
     font-size: 15px;
     text-align: center;
@@ -350,9 +389,10 @@ p{
     color: #848484;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    margin-top: 5%;
-    margin-right: 18%;
+    margin-top: 2%;
+    margin-right: 25%;
     font-size: 14px;
+
 }
 .label_playlist:hover{
     color: white;
@@ -414,9 +454,6 @@ p{
 
 
 .left{
-    margin-top: 1%;
-    margin-left: 1%;
-    margin-right: 1%;
     clear: both;
     width: 90%;
     float: left;
@@ -431,9 +468,20 @@ p{
  }
 
  .music{
+     padding: 1%;
     font-family: 'Roboto', sans-serif;
     height: 45px;
     font-size: 10px;
     font-weight: bold;
 
 }
+.actionPlayer{ width: 50%; height: 50%; margin: auto; margin-left:38%; margin-top:1% /* background: orange; */ }
+.infoMusicPlay{ width: 100%; height: 50%; }
+
+.barraplay{color:silver; width:47%; margin:0 auto;margin-top:3%;margin-right:37%;}
+
+.timeinitial,.barratime,.timefinishmusic{ float: left; height: 100%; }
+
+.timeinitial{width: 10%;text-align: right;}
+.barratime{width: 80%;padding-top: 1%}
+.timefinishmusic{width: 10%;}
