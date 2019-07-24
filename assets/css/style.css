@@ -183,7 +183,7 @@ footer{
 .botao2{
     float: left;
     width: 4%;
-    margin-top: 1%;
+    margin-top: 0%;
     margin-right: 0%;
 }
 .botao3{
@@ -468,20 +468,20 @@ p{
  }
 
  .music{
-     padding: 1%;
+    padding: 1%;
     font-family: 'Roboto', sans-serif;
     height: 45px;
     font-size: 10px;
     font-weight: bold;
 
 }
-.actionPlayer{ width: 50%; height: 50%; margin: auto; margin-left:38%; margin-top:1% /* background: orange; */ }
-.infoMusicPlay{ width: 100%; height: 50%; }
+.actionPlayer{ width: 50%; height: 50%; margin: auto; margin-left:38%; margin-top:1%}
+.infoMusicPlay{ width: 100%; height: 50%}
 
 .barraplay{color:silver; width:47%; margin:0 auto;margin-top:3%;margin-right:37%;}
 
 .timeinitial,.barratime,.timefinishmusic{ float: left; height: 100%; }
 
-.timeinitial{width: 10%;text-align: right;}
-.barratime{width: 80%;padding-top: 1%}
+.timeinitial{width: 10%;text-align: right; clear: both;}
+.barratime{width: 80%;}
 .timefinishmusic{width: 10%;}
